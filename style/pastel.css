@@ -1,0 +1,15 @@
+body {
+    background-color: #fdf6f0;
+    font-family: "Calibri", sans-serif;
+}
+
+h1, h2, h3 {
+    color: #996699;
+}
+
+.stButton > button {
+    background-color: #ffd1dc;
+    color: #333333;
+    border-radius: 8px;
+    font-size: 16px;
+}
