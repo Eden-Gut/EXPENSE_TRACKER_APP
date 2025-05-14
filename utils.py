@@ -11,7 +11,7 @@ def load_and_clean_excel(file):
     df.columns = ["Date", "Amount", "Category", "Business"]
 
     # המרה לתאריך ומיון
-    df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+    df["Date"] = pd.to_datetime(df["Date"],dayfirst = True, errors="coerce")
     df = df.dropna(subset=["Date"])
     
     # חישוב חודש
